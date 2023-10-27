@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KISHORE WEBPAGE</title>
+<style>
+body{
+font-family: verdana, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #fff;
+}
+
+header{
+background-color: #955;
+color: #fff;
+text-align: center;
+padding: 2rem 0;
+position: relative; 
+}
+
+.header-content h1{
+font-size: 2.5rem;
+}
+
+.profile-picture{
+width: 150px; 
+height: 150px;
+border-radius: 50%; 
+object-fit: cover; 
+position: absolute;
+top: 25px;  
+left: 45px; 
+}
+
+nav{
+background-color: #F47983;
+color: #fff;
+text-align: center;
+}
+
+nav ul{
+list-style-type: Tea;
+padding: 0;
+}
+
+nav ul li{
+display: inline;
+margin: 0 20px;
+}
+
+nav ul li a{
+text-decoration: under line;
+color: black;
+}
+
+.section-content{
+background-color:  #fff;
+padding: 2rem;
+margin: 1rem;
+border-radius: 50px;
+box-shadow: 5px 10px #312520;
+}
+
+.download-button{
+background-color: red;
+color: #fff;
+padding: 0.5rem 1rem;
+text-decoration: none;
+border-radius: 20px;
+display: inline-block;
+margin-top: 10px;
+}
+
+.download-button:hover{
+background-color: aqua;
+}
+
+footer{
+text-align: center;
+padding: 1rem 0;
+background-color: #123;
+color: #7f7;
+}
+
+ul {
+list-style-type: disc;
+padding-left: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="header-content">
+<!-- Add ypur profile picture here -->
+<img src="C:\Users\ELCOT\Desktop\New folder\kishore1.jpg" alt="Your Profile Picture" class="profile-picture">
+<h1>KISHOREKUMAR R</h1>
+ <p>Web Designer</p>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#resume">Resume</a></li>
+</ul>
+</nav>
+
+<section id="about">
+<div class="section-content">
+<h2>About Me</h2>
+<p>Hello! I am Kishore Computer Science Student.I am intrested 
+the web Designer.</p>
+<p>I am very inrovert person.</P>
+</div>
+</section>
+
+<section id="education">
+<div class="section-content">
+<h2>B.Sc</h2>
+<p>Government Arts college (Autonomous) Thadhonimalai  Karur. </p>
+</div>
+</section>
+
+<section id="skills">
+<div class="section-content">
+<h2>Skills</h2>
+<ul>
+<li>c</li>
+<li>c++</li>
+<li>Type Writing</li>
+<li>English Lower,Higher</li>
+<li>Tamil Lower,Higher</li>
+<li>Web Developer</li>
+</ul>
+</div>
+</section>
+
+<section id="projects">
+<div class="section-content">
+<h2>Projects</h2>
+<ul>
+<li><a href="C:\Users\ELCOT\Pictures\Kishorekumar (2).png">Project 1</a></li>
+<!-- Add more project lines here -->
+</ul>
+</div>
+
+<section id="contact">
+<div class="section-content">
+<h2>Contact</h2>
+<p>PHONE  : 9384648087</P>
+<p>E-MAIL : kishorekumar100@gmail.com</p>
+<p>INSTA    : silent_boy_kk_6747
+</div>
+</section>
+
+/
+<section id="resume">
+<center>
+<div class="section-content">
+<h2>Resume</h2>
+<a href="file:///C:/Users/ELCOT/Desktop/New%20folder/kishore%20resume.pdf" class="download-button">Download CV</a>
+</div>
+</center>
+</section>
+
+<footer>
+<p>&copy; 2023 Kishore</p>
+</footer>
+
+<script>
+// Smooth scrolling to section when clicking on navigation links
+document.querySelectorAll{'a[href^="#"]').forEach(anchor=>{
+anchor.addEventListener('click', function(e){
+e.preventDefault();
+
+const targetId = this.getAttribute('href').substring(1);
+const targetElement = document.getElementByID(targetId);
+
+if(targetElement) {
+window.scrollTo({
+top: targetElement.offsetTop,
+behavior: 'smooth'
+});
+}
+});
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
